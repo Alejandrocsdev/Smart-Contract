@@ -1,0 +1,25 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat compile && tsx scripts/deploy.ts",
+    "mint": "hardhat compile && tsx scripts/mint.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.6.4",
+    "chai": "^6.3.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^3.19.0",
+    "mocha": "^12.0.3",
+    "typescript": "^5.9.3"
+  },
+  "description": "Test USDT (BEP-20, 18 decimals) for BSC Testnet: deploy once, mint any amount."
+}

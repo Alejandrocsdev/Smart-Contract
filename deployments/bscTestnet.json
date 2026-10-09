@@ -1,0 +1,10 @@
+{
+  "network": "bscTestnet",
+  "chainId": 97,
+  "contract": "TestUSDT",
+  "address": "0x1f944D1886A2ffb804578891FD1C6579868aa2d3",
+  "owner": "0xA0ff45a1a5250b9E6f93F7406Fe2b4A6fb878Ce0",
+  "txHash": "0x6595cedbffd06d986e1729eed6ff5388693698c315aa5c976cabfd0c41b1a171",
+  "blockNumber": 135757620,
+  "deployedAt": "2026-10-09T09:25:04.689Z"
+}
